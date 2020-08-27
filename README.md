@@ -1,2 +1,2 @@
 # python
-example of moving car using tkinter module
+here some examples of python language
