@@ -1,0 +1,22 @@
+import turtle
+
+t=turtle.Turtle()
+s=turtle.Screen()
+
+s.bgcolor('black')
+s.title('heart shape')
+t.color('red')
+t.begin_fill()
+#t.pensize(10)
+t.left(45)
+t.forward(200)
+t.circle(76,200)
+t.penup()
+t.goto(0,0)
+t.down()
+t.left(240)
+t.forward(200)
+t.circle(-76,200)
+t.end_fill()
+t.hideturtle()
+turtle.done()
