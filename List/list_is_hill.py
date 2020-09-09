@@ -31,7 +31,7 @@ for i in range(1,k+1):
 		if down==False :
 			break
 		
-if up==down:
+if up==down==True:
 	print("List is in Hill Valley ")
 else:
 	print("List is not in Hill Valley")
